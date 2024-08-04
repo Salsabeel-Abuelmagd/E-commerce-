@@ -9,7 +9,7 @@ function NewCollection() {
         <hr className="lg:h-2 h-1 w-44 bg-black"/>
         </div>
 
-        <div className="grid grid-cols-4 py-10 gap-5">
+        <div className="grid lg:grid-cols-4 grid-cols-2 py-10 gap-5">
             {new_collection.map((item,i)=>{
                  
                 return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
