@@ -5,10 +5,9 @@ import NewCollection from "../NewCollection/NewCollection"
 import NewEmail from "../NewEmail/NewEmail"
 function Shop() {
   return (
-    <>
-
+    < >
     <Hero/>
-    <div className="w-[85%] m-auto">
+    <div className="lg:w-[85%] m-auto w-full">
     <Popular/>
     <Offers/>
     <NewCollection/>
