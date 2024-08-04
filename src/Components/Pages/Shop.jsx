@@ -7,7 +7,7 @@ function Shop() {
   return (
     < >
     <Hero/>
-    <div className="lg:w-[85%] m-auto w-full">
+    <div className="lg:w-[85%]  m-auto w-[100%]">
     <Popular/>
     <Offers/>
     <NewCollection/>

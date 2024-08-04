@@ -32,7 +32,7 @@ function CartItems() {
             }
             return null;
         })}
-        <div className="grid grid-cols-2 gap-20 py-16">
+        <div className="grid lg:grid-cols-2 gap-20 py-16">
             <div className="w-full">
                 <h3 className="font-semibold text-2xl py-5">Cart Totals</h3>
                 <div className="my-5">

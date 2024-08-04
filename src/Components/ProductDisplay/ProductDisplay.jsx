@@ -6,16 +6,16 @@ function ProductDisplay(props) {
     const { product} = props;
     const { addToCart } = useContext(ShopContext);
   return (
-    <div className="flex gap-5">
-        <div className="flex justify-between gap-3">
-            <div className="flex flex-col gap-3 ">
+    <div className="flex lg:flex-row flex-col gap-5 overflow-hidden">
+        <div className="flex lg:flex-row flex-col-reverse justify-between gap-3">
+            <div className="flex lg:flex-col flex-row gap-3">
             <img src={product.image} alt="" className="h-[130px] w-[130px]"/>
             <img src={product.image} alt="" className="h-[130px] w-[130px]"/>
-            <img src={product.image} alt="" className="h-[130px] w-[130px]"/>
-            <img src={product.image} alt="" className="h-[130px] w-[130px]"/>
+            <img src={product.image} alt="" className="h-[130px] w-[130px] hidden lg:block"/>
+            <img src={product.image} alt="" className="h-[130px] w-[130px] hidden lg:block"/>
             </div>
             <div>
-            <img src={product.image} alt="" className="h-[555px] w-[500px]"/>
+            <img src={product.image} alt="" className="lg:h-[555px] lg:w-[500px] "/>
             </div>
           
         </div>
